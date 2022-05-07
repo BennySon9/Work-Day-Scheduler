@@ -1,0 +1,35 @@
+header {
+  margin-top: 30px;
+  border-bottom: 5px solid black;
+  margin-bottom: 30px;
+}
+
+body {
+  line-height: 1;
+  font-size: 16px;
+}
+
+.hour {
+  border-top: solid darkgrey;
+  text-align: right;
+  padding: 5px;
+}
+
+.col-10 {
+  background-color: darkgray;
+}
+
+textarea {
+  background: transparent;
+  resize: none;
+  color: black;
+  padding: 10px;
+}
+
+.saveBtn {
+  border: 1px solid #88898c;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: aqua;
+  color: white;
+}
