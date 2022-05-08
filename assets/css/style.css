@@ -1,22 +1,18 @@
-header {
-  margin-top: 30px;
-  border-bottom: 5px solid black;
-  margin-bottom: 30px;
-}
-
 body {
+  font-family: fantasy;
   line-height: 1;
   font-size: 16px;
 }
 
-.hour {
-  border-top: solid darkgrey;
-  text-align: right;
-  padding: 5px;
+.jumbotron {
+  background-color: transparent;
+  border-bottom: 10px solid black;
 }
 
-.col-10 {
-  background-color: darkgray;
+.hour {
+  border-top: dashed darkgrey;
+  text-align: right;
+  padding: 5px;
 }
 
 textarea {
@@ -26,10 +22,21 @@ textarea {
   padding: 10px;
 }
 
+.past {
+  background-color: white;
+}
+
+.present {
+  background-color: red;
+}
+
+.future {
+  background-color: greenyellow;
+}
+
 .saveBtn {
-  border: 1px solid #88898c;
+  border: 3px solid #88898c;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: aqua;
-  color: white;
 }
