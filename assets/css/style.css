@@ -1,0 +1,42 @@
+body {
+  font-family: fantasy;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.jumbotron {
+  background-color: transparent;
+  border-bottom: 10px solid black;
+}
+
+.hour {
+  border-top: dashed darkgrey;
+  text-align: right;
+  padding: 5px;
+}
+
+textarea {
+  background: transparent;
+  resize: none;
+  color: black;
+  padding: 10px;
+}
+
+.past {
+  background-color: white;
+}
+
+.present {
+  background-color: red;
+}
+
+.future {
+  background-color: greenyellow;
+}
+
+.saveBtn {
+  border: 3px solid #88898c;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: aqua;
+}
